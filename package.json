@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/Julien-R44/[name]/issues"
   },
-  "packageManager": "pnpm@6.32.9",
+  "packageManager": "pnpm@7.0.0",
   "license": "MIT",
   "author": "Julien Ripouteau <julien@ripouteau.com>",
   "repository": {
@@ -95,5 +95,12 @@
     "bracketSpacing": true,
     "arrowParens": "always",
     "printWidth": 100
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "openapi-types"
+      ]
+    }
   }
 }
