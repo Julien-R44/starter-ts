@@ -2,4 +2,4 @@
 
 ## License
 
-[MIT](./LICENSE) License © 2022 [Julien Ripouteau](https://github.com/Julien-R44)
+[MIT](./LICENSE.md) License © 2022 [Julien Ripouteau](https://github.com/Julien-R44)
