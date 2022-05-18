@@ -47,7 +47,7 @@
     "format": "prettier --write .",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --push --tag && pnpm publish",
-    "start": "esmo src/index.ts",
+    "start": "node --loader=ts-node/esm src/index.ts",
     "test": "node --loader=ts-node/esm bin/test.ts",
     "typecheck": "tsc --noEmit"
   },
