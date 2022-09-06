@@ -73,7 +73,8 @@
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "openapi-types"
+        "openapi-types",
+        "@babel/core"
       ]
     }
   },

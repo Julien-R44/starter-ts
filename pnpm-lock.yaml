@@ -11,7 +11,6 @@ specifiers:
   eslint: ^8.23.0
   pnpm: ^7.11.0
   prettier: ^2.7.1
-  rimraf: ^3.0.2
   ts-node: ^10.9.1
   typescript: ^4.8.2
   unbuild: ^0.8.10
@@ -27,7 +26,6 @@ devDependencies:
   eslint: 8.23.0
   pnpm: 7.11.0
   prettier: 2.7.1
-  rimraf: 3.0.2
   ts-node: 10.9.1_r4hqq7vrw4pxsipnb7ha25ylfe
   typescript: 4.8.2
   unbuild: 0.8.10
@@ -79,14 +77,6 @@ packages:
       call-me-maybe: 1.0.1
       z-schema: 5.0.3
     dev: true
-
-  /@babel/code-frame/7.16.7:
-    resolution: {integrity: sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/highlight': 7.17.9
-    dev: true
-    optional: true
 
   /@babel/code-frame/7.18.6:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
@@ -252,16 +242,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /@babel/highlight/7.17.9:
-    resolution: {integrity: sha512-J9PfEKCbFIv2X5bjTMiZu6Vf341N05QIY+d6FvVKynkG1S7G0j3I0QoRtWIrXhZ+/Nlb5Q0MzqL7TokEJ5BNHg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.18.6
-      chalk: 2.4.2
-      js-tokens: 4.0.0
-    dev: true
-    optional: true
 
   /@babel/highlight/7.18.6:
     resolution: {integrity: sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==}
@@ -4281,7 +4261,7 @@ packages:
       rollup: 2.79.0
       typescript: 4.8.2
     optionalDependencies:
-      '@babel/code-frame': 7.16.7
+      '@babel/code-frame': 7.18.6
     dev: true
 
   /rollup-plugin-esbuild/4.10.1_uu2p2v3owefbwsafzxfcsbbrxa:
