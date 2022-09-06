@@ -75,10 +75,7 @@
     }
   },
   "eslintConfig": {
-    "extends": "@julr",
-    "rules": {
-      "n/no-unsupported-features/es-syntax": "off"
-    }
+    "extends": "@julr"
   },
   "prettier": {
     "trailingComma": "es5",
